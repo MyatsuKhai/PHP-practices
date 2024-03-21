@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <?php $a = 
+    <?php $a = date("d m Y");
+    ?>
+    <p>Today-<?php echo $a ?></p>    
 </body>
 </html>
